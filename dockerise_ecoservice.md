@@ -10,4 +10,5 @@ create a nginx.config file and update the attached nginx.config content, or you 
 cd C:\GITHUb\lendinvest\echo-service\docker
 create **dockerfile** and **docker-compose.yaml** files.
 
+See the attached files and paste it the folder
 
