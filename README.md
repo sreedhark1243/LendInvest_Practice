@@ -12,7 +12,7 @@ Please find the Terraform_IAAC.md file for the descriptive instllation details
 
 **Kubernetes Cluster:**
 -----------------------------------------------------------------------------------------
-Kubernetes cluster creatin on EC2 machines: Inorder to create this we need to have the above infrastructure ready and no machines will get restarted.
+Kubernetes cluster creation on EC2 machines: Inorder to create this we need to have the above infrastructure ready and no machines will get restarted.
 
 Find the Kubernetes_Installation.md file for more descriprive notes of installation
 
