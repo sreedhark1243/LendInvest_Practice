@@ -12,3 +12,7 @@ create **dockerfile** and **docker-compose.yaml** files.
 
 See the attached files and paste it the folder
 
+Now with a single command you can create a docker image and run the container
+
+docker-compose up -d
+
