@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  webapp:
+    build:
+      context: ./
+      dockerfile: dockerfile
+    container_name: lendinvest-webapp-sridhar
+#    restart: always
+    working_dir: /var/www
+    volumes:
+      - ../src:/var/www
+  nginx:
+   image: nginx:1.19-alpine
+   container_name: lendinvest-nginx-sridhar
+#   restart: always
+   ports:
+     - "8001:80"
+   volumes:
+      - ../src:/var/www
+      - ./nginx:/etc/nginx/conf.d
