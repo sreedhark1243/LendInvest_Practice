@@ -12,7 +12,9 @@ create **dockerfile** and **docker-compose.yaml** files.
 
 See the attached files and paste it the folder
 
-Now with a single command you can create a docker image and run the container
+Now with a single command you can create a docker image and run the container.
 
-docker-compose up -d
+**docker-compose up -d**
+
+<docker images> will show the image created out of the docker compose.
 
