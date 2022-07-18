@@ -7,4 +7,7 @@ C:\GITHUb\lendinvest\echo-service\docker & C:\GITHUb\lendinvest\echo-service\doc
 cd C:\GITHUb\lendinvest\echo-service\docker\nginx
 create a nginx.config file and update the attached nginx.config content, or you can download and copy paste the file for easy use. PFA..
 
+cd C:\GITHUb\lendinvest\echo-service\docker
+create **dockerfile** and **docker-compose.yaml** files.
+
 
