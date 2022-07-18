@@ -31,3 +31,12 @@ Here we are building a application with the front end of voting-app which will u
 
 ![image](https://user-images.githubusercontent.com/100056000/179583386-9fa206c6-7db3-4b1f-8619-18a99eae436e.png)
 
+
+**Prometheus Monitoring and exposing the app**
+-----------------------------------------------
+For this we need to install the Prometheus and expose the pods using the exporter pod. Post this, we need to create a service monitor to to poll the data for the prometheus console.
+
+Here we are enabling the local kubernetes PODs as we have some limitations on AWS.
+
+Please find the **prometheus_pod_monitor.md** file for the detailed instructions.
+
