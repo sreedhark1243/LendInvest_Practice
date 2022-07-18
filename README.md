@@ -22,9 +22,11 @@ k8 cluster:
 ![K8 cluster](https://user-images.githubusercontent.com/100056000/179581285-feab7a79-0f60-4130-8d43-6029c86ba107.png)
 
 
-**Deploying a 3 tier webapplication on kubernetes cluster**
+**Deploying a 3 tier webapplication on kubernetes cluster using the Lendlevitapp_manifest.yaml file**
 
 Here we are building a application with the front end of voting-app which will update the redis database, workernode will get the details from the redis put the data in postgresSQL. result-app will dispaly the final results of the updates.
+
+kubectl apply -f Lendlevitapp_manifest.yaml
 
 **Voting-App architechtureral diagram**
 -----------------------------------------
