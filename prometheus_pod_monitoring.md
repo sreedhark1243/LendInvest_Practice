@@ -1,4 +1,5 @@
 1) On Docker or Kuberenetes: Best option is to opt for the docker.
+
 i)  Run an alpine container and install prometheus. Mount present working directory to the container so that you can copy the files from container to the local present working directory.
 
 cd C:\Kubernates\Prometheus\
