@@ -1,5 +1,7 @@
 cd C:\Kubernates\Prometheus\PODmonitoring_Prometheus
 
+Please see the attached prometheus_xxxx.yaml files for the respective section.
+
 Step 1
 ------------------------------------------------------------------
 i) Cluster Role creation:
