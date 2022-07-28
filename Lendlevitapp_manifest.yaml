@@ -112,7 +112,7 @@ metadata:
   labels:
     app: result
 spec:
-  type: LoadBalancer
+  type: NodePort
   ports:
   - port: 9100
     targetPort: 80
